@@ -15,6 +15,10 @@ const Users: CollectionConfig = {
         { label: 'student', value: 'student' },
       ],
     },
+    {
+      name: 'notifications',
+      type: 'json',
+    },
   ],
 };
 
